@@ -5,7 +5,9 @@
 
 #include<stdio.h>
 
-main()
+int main()
 {
-  printf("Hello World");
+    char string[] = "Hello World";
+    printf("%s\n", string);
+    return 0;
 }
